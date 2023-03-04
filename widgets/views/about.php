@@ -1,86 +1,110 @@
-<!-- ABOUT-US-->
-<section class="about">
+<section class="features-section pt-90 pb-50">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
-                <div class="about-centent">
-                    <h2 class="about-title"><?= Yii::t("app", "about")?></h2>
-                    <div class="line"></div>
-                    <p class="about-p"><?= Yii::t("app", "about1")?></p>
-                    <p class="about-p1"><?= Yii::t("app", "about2")?></p>
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-10">
+                <div class="section-title text-center mb-50 wow fadeInUp">
+                    <span class="sub-title"><span class="number">01</span> Enjoy Adventure</span>
+                    <h2>Have A Fun With Our Amazing <span class="thin">Camping Ground</span></h2>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7 ">
-                <div class="about-img">
-                    <div class="img-1">
-                        <img src="frontend-files/images/Home-1/about-3.jpg" class="img-responsive" alt="Image">
-                        <div class="img-2">
-                            <img src="frontend-files/images/Home-1/about-1.jpg" class="img-responsive" alt="Image">
-                        </div>
-                        <div class="img-3">
-                            <img src="frontend-files/images/Home-1/about-2.jpg" class="img-responsive" alt="Image">
-                        </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="fancy-icon-box-three mb-40 wow fadeInDown">
+                    <div class="icon">
+                        <i class="flaticon-cottage-1"></i>
+                    </div>
+                    <div class="text">
+                        <h5 class="title">Private Cottages</h5>
+                        <p>Sit amet consece adipiscing
+                            donec et fusce tellus</p>
+                        <a href="about.html" class="btn-link">Read More <i class="far fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="fancy-icon-box-three mb-40 wow fadeInUp">
+                    <div class="icon">
+                        <i class="flaticon-tent-6"></i>
+                    </div>
+                    <div class="text">
+                        <h5 class="title">Tents on Rent</h5>
+                        <p>Sit amet consece adipiscing
+                            donec et fusce tellus</p>
+                        <a href="about.html" class="btn-link">Read More <i class="far fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="fancy-icon-box-three mb-40 wow fadeInDown">
+                    <div class="icon">
+                        <i class="flaticon-hiking-1"></i>
+                    </div>
+                    <div class="text">
+                        <h5 class="title">Summer Camp</h5>
+                        <p>Sit amet consece adipiscing
+                            donec et fusce tellus</p>
+                        <a href="about.html" class="btn-link">Read More <i class="far fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="fancy-icon-box-three mb-40 wow fadeInUp">
+                    <div class="icon">
+                        <i class="flaticon-campfire-1"></i>
+                    </div>
+                    <div class="text">
+                        <h5 class="title">Wood Fire</h5>
+                        <p>Sit amet consece adipiscing
+                            donec et fusce tellus</p>
+                        <a href="about.html" class="btn-link">Read More <i class="far fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- END/ ABOUT-US-->
-
-<!-- BEST -->
-<section class="best">
+</section><!--====== End Features Section ======-->
+<!--====== Start About Section ======-->
+<section class="about-section pb-50">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-1.png" class="img-responsive" alt="Image">
+        <div class="row align-items-xl-center">
+            <div class="col-xl-7 col-lg-6">
+                <div class="about-two_image-box mb-50">
+                    <img src="/frontend-files/images/about/about-4.jpg" class="wow fadeInUp" alt="About Image">
+                    <div class="avatar-box-item wow fadeInDown">
+                        <h6>We Have a Awesome Team</h6>
+                        <ul class="avatar-images">
+                            <li><a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip"><img src="/frontend-files/images/about/t-1.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-2.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-3.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-4.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-5.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-6.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-7.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-8.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-9.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#"><img src="/frontend-files/images/about/t-10.jpg" alt="Avatar Image"></a></li>
+                            <li><a href="#" class="more-icon"><i class="far fa-plus"></i></a></li>
+                        </ul>
                     </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service1")?></h6>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-2.png" class="img-responsive" alt="Image">
+            <div class="col-xl-5 col-lg-6">
+                <div class="about-content-box pl-lg-50 mb-50 wow fadeInRight">
+                    <div class="section-title mb-20">
+                        <span class="sub-title"><span class="number">02</span> About Us</span>
+                        <h2>We’re Most Trusted Travel<span class="thin"> Partner Around The World</span></h2>
                     </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service2")?></h6>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-4.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service3")?></h6>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-5.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service4")?></h6>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-7.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service5")?></h6>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-8.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service6")?></h6>
+                    <p class="mb-30">Sit amet consectetur adipiscing elit. At donec etfusce orci tellus aliquam vitae. Metus nibh laoreet velit diam enimusto
+                        sagittis fringilla ulputatey honcus justo, cras sed</p>
+                    <ul class="check-style-two check-width-50">
+                        <li><i class="flaticon-draw-check-mark"></i>Tent Camping</li>
+                        <li><i class="flaticon-draw-check-mark"></i>Family Camping</li>
+                        <li><i class="flaticon-draw-check-mark"></i>Couple Camping</li>
+                        <li><i class="flaticon-draw-check-mark"></i>Wid Camping</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- END / BEST -->
+</section><!--====== End About Section ======-->

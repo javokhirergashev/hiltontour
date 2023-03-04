@@ -1,63 +1,86 @@
-<!-- CONTACT -->
-<section class="section-contact">
+<!--====== Start Contact Section ======-->
+<section class="contact-bg-section bg_cover pt-100 pb-50" style="background-image: url(frontend-files/images/bg/contact-bg-1.png);">
     <div class="container">
-        <div class="contact">
-            <div class="row">
-                <div class="col-md-6 col-lg-5">
-                    <div class="text">
-                        <h2><?= Yii::t("app", "contact1")?></h2>
-                        <ul>
-                            <?php if (!empty($models)):?>
-                                <?php foreach ($models as $model) :?>
-                                    <li><i class=" fa ion-ios-location-outline"></i><?=$model->addres?></li>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i> <?=$model->first_phone?></li>
-                                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i><?=$model->email?></li>
-                                <?php endforeach;?>
-                            <?php endif;?>
-                        </ul>
+        <div class="row align-items-center">
+            <div class="col-xl-7 col-lg-12">
+                <div class="contact-content-box mb-50">
+                    <div class="section-title mb-45 wow fadeInUp">
+                        <span class="sub-title"><span class="number">01</span>Contact Us</span>
+                        <h2>Ready to Travel Us <span class="thin">for Better Adventure</span></h2>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-lg-offset-1">
-                    <div class="contact-form">
-                        <form action="https://landing.engotheme.com/html/skyline/demo/send_mail_contact.php" method="post">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <input type="text" class="field-text" name="name" id="name" placeholder="Ism">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-icon-box mb-50 wow fadeInDown">
+                                <div class="icon">
+                                    <i class="fal fa-map-marker-alt"></i>
                                 </div>
-                                <div class="col-sm-6">
-                                    <input type="text" class="field-text" name="email" id="email" placeholder="Email">
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="tel" class="field-text" name="email" id="phone" placeholder="Tel">
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="date" class="field-text" name="email" id="date">
-                                </div>
-                                <div class="col-sm-12">
-                                    <select style="height: 42px; border: 2px solid #232323; width: 100%;  margin-top: 15px; padding-left: 15px;padding-right: 15px;" name="message" id="select" >
-                                        <option disabled selected>Tur kategoriyani tanlang</option>
-                                        <?php if(!empty($tours)):?>
-                                            <?php foreach ($tours as $tour):?>
-                                                <option><?=$tour["title_".Yii::$app->language];?></option>
-                                            <?php endforeach;?>
-                                        <?php endif;?>
-                                    </select>
-                                </div>
-                                <div class="col-sm-6">
-                                    <button type="submit" onclick="booking()" class="btn btn-room">Yuborish</button>
+                                <div class="text">
+                                    <h4 class="title">Locations</h4>
+                                    <p>532 Main Street, 2nd Block
+                                        melbourne, Australia</p>
                                 </div>
                             </div>
-                        </form>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-icon-box mb-50 wow fadeInDown">
+                                <div class="icon">
+                                    <i class="fal fa-envelope-open"></i>
+                                </div>
+                                <div class="text">
+                                    <h4 class="title">Email Us</h4>
+                                    <p><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#f685838686998482b6919b979f9ad895999b"><span class="__cf_email__" data-cfemail="32414742425d404672555f535b5e1c515d5f">[email&#160;protected]</span></a></p>
+                                    <p><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#5e2d2b2e2e312c2a1e39333f3732703d3133">infovadhak.net</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-icon-box mb-50 wow fadeInDown">
+                                <div class="icon">
+                                    <i class="fal fa-phone"></i>
+                                </div>
+                                <div class="text">
+                                    <h4 class="title">Hotline</h4>
+                                    <p><a href="tel:+000(123)45688">tel:+000 (123) 456 88</a></p>
+                                    <p><a href="tel:+123456789">+123456789</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-icon-box mb-50 wow fadeInDown">
+                                <div class="icon">
+                                    <i class="fal fa-link"></i>
+                                </div>
+                                <div class="text">
+                                    <h4 class="title">Follow Us</h4>
+                                    <p>532 Main Street, 2nd Block
+                                        melbourne, Australia</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-12">
+                <div class="contact-form-wrapper mb-50">
+                    <h3 class="title">Send Us Message</h3>
+                    <p>Adipiscing magna varius imperdiet scelerisque
+                        suspendisse amet sed ridiculus turpis.</p>
+                    <form class="contact-form">
+                        <div class="form_group">
+                            <input type="text" class="form_control" placeholder="Full Name" name="name" required>
+                        </div>
+                        <div class="form_group">
+                            <input type="text" class="form_control" placeholder="Email Address" name="email" required>
+                        </div>
+                        <div class="form_group">
+                            <textarea class="form_control" placeholder="Write Message" name="message"></textarea>
+                        </div>
+                        <div class="form_group">
+                            <button class="main-btn btn-green">Send message <i class="far fa-angle-double-right"></i></button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- END / CONTACT -->
-<!-- MAP -->
-<div class="section-map">
-    <iframe width="1900" height="595" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1900&amp;height=595&amp;hl=en&amp;q=%20Namangan+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
-    </iframe>
-</div>
-<!-- END / MAP -->
+</section><!--====== End Contact Section ======-->

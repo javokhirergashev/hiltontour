@@ -29,6 +29,8 @@ AppAsset::register($this);
 <!--        --><?//= \app\widgets\Slider::widget()?>
         <?= $content ?>
         <?=\app\widgets\Footer::widget()?>
+    <a href="#" class="back-to-top" ><i class="far fa-angle-up"></i></a>
+
     <?php $this->endBody() ?>
 
 </body>
