@@ -1,39 +1,34 @@
-<section class="banner-tems text-center">
-    <div class="container">
-        <div class="banner-content">
-            <h2><?= Yii::t("app", "hotels")?></h2>
+<section class="accommodation-section pt-100 pb-100">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-xl-6">
+                <div class="section-title text-center mb-50 wow fadeInDown">
+                    <h2><?= Yii::t("app", "hotel1")?></h2>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
-<!-- BODY-ROOM-5 -->
-<section class="body-room-5">
-    <div class="container">
-        <div class="wrap-room-5">
-            <div class="row">
-                <?php if (!empty($models)): ?>
-                    <?php foreach ($models as $model):?>
-                        <?php $img = app\models\StaticFunctions::getImage('hotel',$model->id,$model->images)?>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <div class="wrap-item ">
-                                <div class="img">
-                                    <img src="<?=$img?>" alt="#" class="img-responsive">
-                                </div>
-                                <div class="text-room-5">
-                                    <h2 class="h2-rooms"><?=$model->name?></h2>
-                                    <h5 class="h5-room"><?=$model->country?></h5>
-                                </div>
-                                <div class="text-hover">
+        <div class="service-slider-one wow fadeInUp">
+            <?php if (!empty($models)):?>
+                <?php foreach ($models as $model):?>
+                    <?php $img = app\models\StaticFunctions::getImage('hotel',$model->id,$model->images)?>
+                    <div class="single-service-item-four">
+                        <div class="img-holder">
+                            <img src="<?=$img?>" alt="Service Image">
+                            <div class="hover-content">
+                                <div class="inner-content d-flex justify-content-between">
                                     <div class="text">
-                                        <h2 style="align-items: center" class="h2-rooms"><?=$model->name?></h2>
-                                        <h5 class="h5-room"><?=$model->country?></h5>
+                                        <h4 class="title"><?=$model->name?></h4>
+                                        <?=$model->country?>
+                                    </div>
+                                    <div class="icon">
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    <?php endforeach;?>
-                <?php endif;?>
-            </div>
+                    </div>
+                <?php endforeach;?>
+            <?php endif;?>
         </div>
     </div>
-</section>
-<!-- END/BODY-ROOM-5-->
+</section><!--====== End Accommodation Section ======-->

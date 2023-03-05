@@ -5,80 +5,95 @@
             <div class="col-xl-7 col-lg-12">
                 <div class="contact-content-box mb-50">
                     <div class="section-title mb-45 wow fadeInUp">
-                        <span class="sub-title"><span class="number">01</span>Contact Us</span>
-                        <h2>Ready to Travel Us <span class="thin">for Better Adventure</span></h2>
+                        <h2><span class="thin"><?= Yii::t("app", "contact1")?></span></h2>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="contact-icon-box mb-50 wow fadeInDown">
-                                <div class="icon">
-                                    <i class="fal fa-map-marker-alt"></i>
+                    <?php if (!empty($models)):?>
+                        <?php foreach ($models as $model):?>
+                             <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="contact-icon-box mb-50 wow fadeInDown">
+                                            <div class="icon">
+                                                <i class="fal fa-map-marker-alt"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="title"><?= Yii::t("app", "location")?></h4>
+                                                <p><?=$model->addres?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="contact-icon-box mb-50 wow fadeInDown">
+                                            <div class="icon">
+                                                <i class="fal fa-envelope-open"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="title"><?= Yii::t("app", "email")?></h4>
+                                                <p><a href=""><?=$model->email?></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="contact-icon-box mb-50 wow fadeInDown">
+                                            <div class="icon">
+                                                <i class="fal fa-phone"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="title"><?= Yii::t("app", "tel")?></h4>
+                                                <p>+123456789</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="contact-icon-box mb-50 wow fadeInDown">
+                                            <div class="icon">
+                                                <i class="fal fa-link"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="title"><?= Yii::t("app", "subscribe")?></h4>
+                                                <p>hiltontour.uz</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="text">
-                                    <h4 class="title">Locations</h4>
-                                    <p>532 Main Street, 2nd Block
-                                        melbourne, Australia</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-icon-box mb-50 wow fadeInDown">
-                                <div class="icon">
-                                    <i class="fal fa-envelope-open"></i>
-                                </div>
-                                <div class="text">
-                                    <h4 class="title">Email Us</h4>
-                                    <p><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#f685838686998482b6919b979f9ad895999b"><span class="__cf_email__" data-cfemail="32414742425d404672555f535b5e1c515d5f">[email&#160;protected]</span></a></p>
-                                    <p><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#5e2d2b2e2e312c2a1e39333f3732703d3133">infovadhak.net</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-icon-box mb-50 wow fadeInDown">
-                                <div class="icon">
-                                    <i class="fal fa-phone"></i>
-                                </div>
-                                <div class="text">
-                                    <h4 class="title">Hotline</h4>
-                                    <p><a href="tel:+000(123)45688">tel:+000 (123) 456 88</a></p>
-                                    <p><a href="tel:+123456789">+123456789</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-icon-box mb-50 wow fadeInDown">
-                                <div class="icon">
-                                    <i class="fal fa-link"></i>
-                                </div>
-                                <div class="text">
-                                    <h4 class="title">Follow Us</h4>
-                                    <p>532 Main Street, 2nd Block
-                                        melbourne, Australia</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                    <?php endforeach;?>
+                    <?php endif;?>
+
                 </div>
             </div>
             <div class="col-xl-5 col-lg-12">
-                <div class="contact-form-wrapper mb-50">
-                    <h3 class="title">Send Us Message</h3>
-                    <p>Adipiscing magna varius imperdiet scelerisque
-                        suspendisse amet sed ridiculus turpis.</p>
-                    <form class="contact-form">
-                        <div class="form_group">
-                            <input type="text" class="form_control" placeholder="Full Name" name="name" required>
+                <div class="col-lg-12">
+                    <div class="adventure-form-content-box pt-95 pb-95 pr-lg-70 wow fadeInLeft">
+                        <div class="section-title mb-35">
+                            <h2><?= Yii::t("app", "contactp")?></h2>
                         </div>
-                        <div class="form_group">
-                            <input type="text" class="form_control" placeholder="Email Address" name="email" required>
+                        <div class="accommodation-form">
+                            <div class="form_group">
+                                <input type="text" class="form_control " placeholder="<?= Yii::t("app", "name")?>" id="name">
+                            </div>
+                            <div class="form_group">
+                                <input type="email" class="form_control " placeholder="Email" id="email">
+                            </div>
+                            <div class="form_group">
+                                <input type="tel" class="form_control" placeholder="<?= Yii::t("app", "tel")?>" name="text" id="phone">
+                            </div>
+                            <div class="form_group">
+                                <input type="date" class="form_control" name="text" id="date">
+                            </div>
+                            <div class="form_group">
+                                <select class="wide" id="select">
+                                    <option data-display="<?= Yii::t("app", "tours")?>"></option>
+                                    <?php if(!empty($tours)):?>
+                                        <?php foreach ($tours as $tour):?>
+                                            <option><?=$tour["title_".Yii::$app->language];?></option>
+                                        <?php endforeach;?>
+                                    <?php endif;?>
+                                </select>
+                            </div>
+                            <div class="form_group">
+                                <button onclick="booking()" class="main-btn btn-green"><?= Yii::t("app", "send")?><i class="far fa-angle-double-right"></i></button>
+                            </div>
                         </div>
-                        <div class="form_group">
-                            <textarea class="form_control" placeholder="Write Message" name="message"></textarea>
-                        </div>
-                        <div class="form_group">
-                            <button class="main-btn btn-green">Send message <i class="far fa-angle-double-right"></i></button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>

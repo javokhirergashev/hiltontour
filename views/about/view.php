@@ -1,86 +1,83 @@
-<!-- ABOUT-US-->
-<section class="about">
+<section class="features-section pt-90 pb-50">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
-                <div class="about-centent">
-                    <h2 class="about-title"><?= Yii::t("app", "about")?></h2>
-                    <div class="line"></div>
-                    <p class="about-p"><?= Yii::t("app", "about1")?></p>
-                    <p class="about-p1"><?= Yii::t("app", "about2")?></p>
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-10">
+                <div class="section-title text-center mb-50 wow fadeInUp">
+                    <h2><?= Yii::t("app", "service6")?> <br>     <span class="thin"><?= Yii::t("app", "service7")?></span></h2>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7 ">
-                <div class="about-img">
-                    <div class="img-1">
-                        <img src="frontend-files/images/Home-1/about-3.jpg" class="img-responsive" alt="Image">
-                        <div class="img-2">
-                            <img src="frontend-files/images/Home-1/about-1.jpg" class="img-responsive" alt="Image">
-                        </div>
-                        <div class="img-3">
-                            <img src="frontend-files/images/Home-1/about-2.jpg" class="img-responsive" alt="Image">
-                        </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="fancy-icon-box-three mb-40 wow fadeInDown">
+                    <div class="icon">
+                        <i class="flaticon-cottage-1"></i>
+                    </div>
+                    <div class="text">
+                        <h5 class="title"><?= Yii::t("app", "service1")?></h5>
+                        <p><?= Yii::t("app", "service1t")?></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="fancy-icon-box-three mb-40 wow fadeInUp">
+                    <div class="icon">
+                        <i class="flaticon-tent-3"></i>
+                    </div>
+                    <div class="text">
+                        <h5 class="title"><?= Yii::t("app", "service2")?></h5>
+                        <p><?= Yii::t("app", "service2t")?></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="fancy-icon-box-three mb-40 wow fadeInDown">
+                    <div class="icon">
+                        <i class="flaticon-hiking-1"></i>
+                    </div>
+                    <div class="text">
+                        <h5 class="title"><?= Yii::t("app", "service3")?></h5>
+                        <p><?= Yii::t("app", "service3t")?></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="fancy-icon-box-three mb-40 wow fadeInUp">
+                    <div class="icon">
+                        <i class="flaticon-eat"></i>
+                    </div>
+                    <div class="text">
+                        <h5 class="title"><?= Yii::t("app", "service5")?></h5>
+                        <p><?= Yii::t("app", "service5t")?></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- END/ ABOUT-US-->
-
-<!-- BEST -->
-<section class="best">
+</section><!--====== End Features Section ======-->
+<!--====== Start About Section ======-->
+<section class="about-section pb-50">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-1.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service1")?></h6>
+        <div class="row align-items-xl-center">
+            <div class="col-xl-7 col-lg-6">
+                <div class="about-two_image-box mb-50">
+                    <img src="/frontend-files/images/about/about-4.jpg" class="wow fadeInUp" alt="About Image">
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-2.png" class="img-responsive" alt="Image">
+            <div class="col-xl-5 col-lg-6">
+                <div class="about-content-box pl-lg-50 mb-50 wow fadeInRight">
+                    <div class="section-title mb-20">
+                        <h2><?= Yii::t("app", "about0")?></h2>
                     </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service2")?></h6>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-4.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service3")?></h6>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-5.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service4")?></h6>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-7.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service5")?></h6>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="wrap-best">
-                    <div class="icon-best">
-                        <img src="frontend-files/images/Home-1/about-icon-8.png" class="img-responsive" alt="Image">
-                    </div>
-                    <h6 class="sky-h6"><?= Yii::t("app", "service6")?></h6>
+                    <p class="mb-30"><?= Yii::t("app", "about1")?></p>
+                    <ul class="check-style-two check-width-50">
+                        <li><i class="flaticon-draw-check-mark"></i><?= Yii::t("app", "service1")?></li>
+                        <li><i class="flaticon-draw-check-mark"></i><?= Yii::t("app", "service2")?></li>
+                        <li><i class="flaticon-draw-check-mark"></i><?= Yii::t("app", "service3")?></li>
+                        <li><i class="flaticon-draw-check-mark"></i><?= Yii::t("app", "service4")?></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- END / BEST -->
+</section><!--====== End About Section ======-->

@@ -47,6 +47,7 @@ class AppAsset extends AssetBundle
         "vendor/jquery-ui/jquery-ui.min.js",
         "vendor/wow.min.js",
         "js/theme.js",
+        "js/form.js",
 
     ];
   public $depends = [

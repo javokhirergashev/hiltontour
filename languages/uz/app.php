@@ -2,28 +2,34 @@
 return[
 
     "book" => "Buyurtma berish",
+    "lang" => "O'zbekcha",
 
 
 //    slider page
-    "slider1" => "Sarguzashtli Sayohatlar",
+    "slider1" => "Unutilmas Sarguzashtlar!",
     "sliders1" => "Hoziroq buyurtma bering",
-    "slider2" => "Dunyo bo'ylab sayohat qiling!",
+    "slider2" => "Sayohatga tayyormisiz?",
     "sliders2" => "Hoziroq buyurtma bering",
 
 
 //    Services page
     "service1" => "Hamyonbop Mehmonxonalar",
-    "service2" => "Betakror Manzaralar",
-    "service3" => "Doimiy aloqa",
+    "service1t" => " Safar davomida dunyoning eng mashxur va   hamyonbop mehmonxonalarida oilaviy hordiq chiqaring",
+    "service3" => "Betakror Manzaralar",
+    "service3t" => "Dunyoning eng mashxur joylarigatashrif buyurishingiz  va tabiat mo'jizalaridan bahramand bo'lishingiz umkin",
+    "service2" => "Xavfsizlik va ishonchlilik",
+    "service2t" => "Sayohat qilayogan paytingizda biz sizning xavfsizligingizni ta'minlash uchun doimiy nazorat qilamiz",
     "service4" => "Ajoyib xizmat ko'rsatish",
-    "service5" => "Mazali taomlar",
-    "service6" => "Taxi xizmati",
+    "service5" => "Mashxur Restoranlar",
+    "service5t" => "Butun dunyoga mashxur to'rt va besh yulduzli restoranlar siz va oilangiz uchun xizmat ko'rsatishga tayyor. ",
+    "service6" => "Biz sizga taklif etamiz",
+    "service7" => "bizning xizmtlar",
 
 
 //    About page
-    "about" => "Biz haqimizda",
+    "about0" => "Biz haqimizda",
     "about1" => "Yaxshi turizmga ega har qanday mamlakatni tanlashingiz mumkin. Biz siz uchun barcha qulayliklarni yaratib beramiz. Bizda  siz uchun qulay narxlar sarguzashtga boy sayohatlar mavjud. Bizning mehmonxonalarimiz siz uchun juda qulay va xamyonbob",
-    "about2" => "Siz uchun ma'qul bo'lgan tur paketni tanlash va sayohatga buyurtma berish orqali siz orzuyingizdagi sarguzashtlarga guvoh bo'lishingiz mumkin",
+    "about2" => "Siz uchun ma'qul bo'lgan tur paketni tanlash va sayohatga buyurtma bering!",
 
 
 
@@ -36,46 +42,38 @@ return[
 
 //    Tours page
     "tours" => "Tur paketlar",
+    "more" => "Batafsil",
+
 
 //    Counter page
-    "counter1" => "Parvozni bron qilish",
+
+    "counter_t" => "Bizni muntazam kuzatib boring",
+    "counter1" => "Mijozlar",
     "counter2" => "Ajoyib sayohat",
     "counter3" => "Kruizlarni bron qilish",
     "counter4" => "Chipta bron qilish",
 
 
 //    destination page
-    "category" => "Tur paket kategoriyalari",
+    "category1" => "TUR PAKET",
+    "category2" => "KATEGORIYARI",
+    "cta" => "Hayotingizni sayohat bilan go'zallashtiring",
 
 
 // conact
 
     "contact1" => "Kontaktlar",
+    "hotel1" => "Mehmonxonalar",
+
 
 
 
 //    Hotel page
 
 
-//     blog page
-    "travelblog" => "sayohat blogi",
-    "travelexp" => "Sayohat",
-    "exper" => "Tajribasi",
-    "imgp1" => "Misrga sayohat qilish uchun amaliy ma'lumotlar",
-    "imgp2" => "Eng mashhur yaxta charter marshrutlari",
-    "imgp3" => "Benuqson asal oyi uchun maslahatlar",
-    "imgp4" => "Mayamida sog'inib bo'lmaydigan 5 ta narsa",
-    "imgp5" => "Yoshlar va bolalar uchun oilaviy sarguzasht sayohatlari",
-    "imgp6" => "AQSh dan reyslar bilan kichik guruhli sayohatlar",
-
-
 //    Testimonial page
-    'test_info' => "Mijozlarimiz biz haqimizda nima deyishadi",
+    'test_info' => "Mijozlarimiz biz haqimizda qanday fikrda?",
     'testmon' => "Mijozlarning Fikrlari",
-    "testinfo" => "Biz sizga eng yaxshi yo'nalishlarni taqdim etamiz. Hozir bron qiling va rohatlaning!",
-    "testcall" => "hoziroq qo'ng'iroq qiling",
-    "testcall1" => "Bizga qo'ng'iroq qiling, bu bepul.",
-
 
 //    Contact page
     "contactinfo" => "Bog'lanish",
@@ -85,8 +83,6 @@ return[
     'tel' => "Telefon",
     'message' => "Habar Yo'llash",
     'send' => "Yuborish",
-    'category1' => "Tur paketni tanlang",
-    "data" => "sana.oy.yil",
     "location" => "Manzil",
     "contactp" => "Biz bilan bog'laning va dunyo bo'ylab sayohat qiling.",
 

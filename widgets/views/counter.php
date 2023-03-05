@@ -3,16 +3,9 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div class="video-content-box text-white mb-40 wow fadeInLeft">
-                    <h2 class="mb-30">Ready to Get Started your Travel Camping Us</h2>
-                    <a href="#" class="main-btn btn-green">Watch video <i class="far fa-angle-double-right"></i></a>
-                </div>
+
             </div>
-            <div class="col-lg-6">
-                <div class="play-box text-lg-end mb-40 wow fadeInRight">
-                    <a href="https://www.youtube.com/watch?v=ibuUmMhD2Pg" class="video-popup"><i class="fas fa-play"></i></a>
-                </div>
-            </div>
+
         </div>
     </div>
 </section><!--====== End Video Section ======-->
@@ -29,8 +22,8 @@
                                     <i class="flaticon-hiking"></i>
                                 </div>
                                 <div class="text">
-                                    <h2><span class="count">365</span>K+</h2>
-                                    <p>Happy Traveler</p>
+                                    <h2><span class="count">35</span>+</h2>
+                                    <p><?= Yii::t("app", "counter1")?></p>
                                 </div>
                             </div>
                         </div>
@@ -39,11 +32,11 @@
                         <div class="counter-item mb-30 d-flex justify-content-center wow fadeInUp">
                             <div class="counter-inner-item">
                                 <div class="icon">
-                                    <i class="flaticon-tent-1"></i>
+                                    <i class="flaticon-sea-waves"></i>
                                 </div>
                                 <div class="text">
-                                    <h2><span class="count">135</span>+</h2>
-                                    <p>Tent Sites</p>
+                                    <h2><span class="count">15</span>+</h2>
+                                    <p><?= Yii::t("app", "counter3")?></p>
                                 </div>
                             </div>
                         </div>
@@ -55,8 +48,8 @@
                                     <i class="flaticon-branch"></i>
                                 </div>
                                 <div class="text">
-                                    <h2><span class="count">458</span>+</h2>
-                                    <p>Global Branch</p>
+                                    <h2><span class="count">45</span>+</h2>
+                                    <p><?= Yii::t("app", "counter2")?></p>
                                 </div>
                             </div>
                         </div>
@@ -65,11 +58,11 @@
                         <div class="counter-item mb-30 d-flex justify-content-center wow fadeInUp">
                             <div class="counter-inner-item">
                                 <div class="icon">
-                                    <i class="flaticon-tent-2"></i>
+                                    <i class="flaticon-beach-chair"></i>
                                 </div>
                                 <div class="text">
-                                    <h2><span class="count">985</span>+</h2>
-                                    <p>Family Camping</p>
+                                    <h2><span class="count">27</span>+</h2>
+                                    <p><?= Yii::t("app", "counter4")?></p>
                                 </div>
                             </div>
                         </div>
